@@ -1,0 +1,5 @@
+#komentar .htaccess
+#kita gunakan untuk proteksi folder kita
+
+RewriteEngine On
+Options -Indexes

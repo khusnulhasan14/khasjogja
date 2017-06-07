@@ -1,0 +1,257 @@
+.navbarku{
+	border-radius: 0;
+	margin-bottom: 0;
+	border:none;
+}
+
+.merah span a{
+	color: red;
+}
+
+.minimal-tinggi{
+	min-height: 510px;
+}
+
+footer
+{
+	padding: 2px;
+	background: #222;
+	color: #fff;
+	line-height: 40px;
+	text-align: center;
+	font-size: 16px;
+}
+.blog
+{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background: #f8f8f8;
+	color: #333;
+}
+.blog h2
+{
+	font-weight: 700;
+	font-size: 24px;
+	letter-spacing: 1px;  /*jarak antara huruf*/
+}
+.blog h4.media-heading
+{
+	font-weight: 500;
+	font-size: 20px;
+}
+.blog p
+{
+	font-size: 12px;
+}
+.atasnya_footer
+{
+	background: #d2d4d8;
+	color: black;
+	line-height: 10px;
+	/*text-align: left;*/
+	font-size: 16px;
+}
+.atasnya_footer ul
+{
+	margin: 0px; /*meng 0 kan jarak keluar*/
+	padding: 0px; /*meng 0 kan jarak kedalam*/
+	list-style:none; /*menghilang kan bulleting*/
+}
+.atasnya_footer ul li
+{
+	line-height: 20px; /*tinggi tulisan stinggi area*/
+}
+.atasnya_footer strong
+{
+	line-height: 50px;
+}
+header
+{
+	width: auto;
+	height: 100px;  /*tinggi area*/
+	/*background: #eee; */
+}
+.navatas
+{
+	background: #222;
+	color: #fff;
+	height: 40px;
+}
+.navatas nav ul
+{
+	list-style: none;
+	margin: 0px; /*meng 0 kan jarak keluar*/
+	padding: 0px; /*meng 0 kan jarak kedalam*/
+}
+.navatas nav ul li
+{
+	display: inline-block;
+	line-height: 40px;
+}
+.navatas nav ul li a
+{
+	text-decoration: none; /*menghilangkan garis bwah link*/
+	color: #fff;   /*warna tulisan*/
+	padding-left: 10px;   /*jarak ke dalam dari sisi kiri*/
+	padding-right: 10px;  /*jarak kedalam dari sisi kanan*/
+	display: block;  /*membuat link menguasai area li*/
+}
+.navatas nav ul li a:hover  /*hover adlh ketika kursor diatas tag html tertentu*/
+{
+	background: #111;
+}
+
+.tinggi{
+	height: 100px;
+	/*width: 200px;*/
+}
+
+.produkku{
+ height: 330px;
+ width: 202px;
+ border: 1px solid #ccc;
+ margin-bottom: 10px;
+ text-align: center;
+ border-radius: 3px;
+}
+
+.gambar_produk{
+	border-radius: 3px;
+	height: 200px;
+	width: 200px;
+}
+.tulisan{
+	padding-top: 10px;
+}
+.tulisan a{
+	color: #222;
+}
+.tulisan span{
+	color: red;
+}
+
+.kolom-jadi-5{
+	width: 20%;
+  	position: relative;
+  	min-height: 1px;
+  	padding-right: 15px;
+  	padding-left: 15px;
+  	float: left;
+}
+
+.logo{
+	color: white;
+	background-color: #ef0404;
+	padding: 6px 6px 6px 2px;
+	border-radius: 10px;
+	transition: .5s;
+}
+.judul{
+	font-size: 20px;
+	color:#ef0404;
+	font-weight: bold;
+	font-family: 'Varela Round', sans-serif;
+	padding: 10px 30px 10px 0;
+}
+
+.judul a{
+	color: unset;
+}
+.judul a:hover{
+	text-decoration: none;
+	color: unset;
+}
+@media (min-width: 768px) {
+  .cari {
+  	margin: 10px 0 0 0;
+  	border-radius: 3px;
+  	border: none;
+    width: 100px;
+    height: 30px;
+    padding: 0 5px;
+    box-sizing: border-box;
+  }
+}
+@media (min-width: 992px) {
+  .cari {
+  	margin: 10px 0 0 0;
+  	border-radius: 3px;
+  	border: none;
+    width: 200px;
+    height: 30px;
+    padding: 0 5px;
+    box-sizing: border-box;
+  }
+}
+@media (min-width: 1100px) {
+  .cari {
+  	margin: 10px 0 0 0;
+  	border-radius: 3px;
+  	border: none;
+    width: 250px;
+    height: 30px;
+    padding: 0 5px;
+    box-sizing: border-box;
+  }
+}
+@media (min-width: 1300px) {
+  .cari {
+  	margin: 10px 0 0 10px;
+  	border-radius: 3px;
+  	border: none;
+    width: 400px;
+    height: 30px;
+    padding: 0 5px;
+    box-sizing: border-box;
+  }
+}
+
+.gambar_cover{
+	background-size: cover;
+	width: 100%;
+}
+
+.tombol-cari{
+	margin-left: -25px;
+	-moz-margin-left: -25px;
+}
+
+
+/*bawah*/
+kelebihan{
+	padding: 30px;
+	min-height: 600px;
+	font-weight: bold;
+}
+.founder{
+	padding: 30px;
+	background-color: #222A31;
+	min-height: 300px;
+}
+.founder h1{
+	font-weight: bold;
+	text-align: center;
+	color: #aaa;
+	font-family: 'Open Sans', sans-serif;
+}
+.founder p{
+	color: #aaa;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+}
+.founder img{
+	padding: 50px 5px;
+	margin: auto;
+}
+footer{
+	width: 100%;
+	min-height: 50px;
+	background-color: black;
+	color: #aaa;
+}
+footer p{
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	padding: 12px 0;
+}
